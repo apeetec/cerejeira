@@ -1,12 +1,19 @@
-# React + Vite
+# 🌸 Site Cerejeira - Projeto em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma reimplementação em **React** de um site institucional que desenvolvi anteriormente para um cliente, utilizando HTML, CSS e JavaScript puros. O objetivo foi colocar em prática os principais fundamentos do React, como componentização, props, reutilização de código e estrutura moderna com **Vite**.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [JavaScript (ES6+)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-## Expanding the ESLint configuration
+## 📦 Como executar o projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/cerejeira-react.git
+cd cerejeira-react
