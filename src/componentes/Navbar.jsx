@@ -21,7 +21,7 @@ const Navbar = () => {
                         <a href="#" id="fechar">Fechar&nbsp;&nbsp;<i className="fa-solid fa-circle-xmark"></i></a>
                     </li>
                 </ul>
-                <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i class="fa-solid fa-bars"></i></a>
+                <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="fa-solid fa-bars"></i></a>
             </div>
         </nav>
     )
