@@ -1,0 +1,181 @@
+
+/* Padrões do site */
+    /* Titulos,parágrafos,navbar e outros*/
+    h1,h2,h3,h4,h5,h6,p,ul li a,a,span,label,small,input,li{font-family: 'Fira Sans', sans-serif;}
+    .titulo{margin: 0;font-size: 38px;color: #4962de;font-weight: 600;font-style: italic;}
+    p{font-size: 16px;line-height: 25px;color: #989898;}
+    nav .nav-wrapper.container{text-align: center;}
+    ul{list-style: none!important;padding: 0!important;}
+    nav ul{display: block;text-align: center;}
+    nav ul.hide-on-med-and-down{margin: 0 48px;display: inline-block;}
+    .actions{line-height: initial!important;}
+    .btn-custom{border: 2px solid #FFFFFF;border-radius: 23px;padding: 10px 20px;}
+    figure{margin: 0!important;}
+    .space-top-bottom{padding: 70px 0;}
+    .container{width: 100%!important;display: flow-root!important;padding: 0 20px;}
+    .container.fluid{max-width: 100%;padding: 0 100px;}
+    #locations li{display: inline-block;margin-right: 40px;}
+    #locations li a{color: #fff;font-size: 20px;}
+    #locations li a i{font-size: 27px;}
+    .magnify {
+        position: relative;
+        cursor: none
+    }
+    .magnify-large {
+        position: absolute;
+        display: none;
+        width: 225px;
+        height: 225px;
+        -webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+           -moz-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+                box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+        -webkit-border-radius: 100%;
+           -moz-border-radius: 100%;
+                 border-radius: 100%
+    }
+/* Grids systems */
+    .display-grid{display: grid;}
+    .two-columns{display: grid;grid-template-columns: 1fr 1fr;width: 100%;}
+    .three-columns{grid-template-columns: 1fr 1fr 1fr;}
+/* Inputs de contato */
+    .wpcf7-form-control{border: 2px solid #4962DD!important;box-sizing: border-box!important;text-align: center!important;}
+    .wpcf7-submit{background: #4962DD 0% 0% no-repeat padding-box;color: #fff;width: 100%;padding: 10px;}
+    .wpcf7-not-valid-tip{display: none!important;}
+    .wpcf7-not-valid {box-shadow: inset 0px 0px 15px #b53a3a!important;}
+/* Barra de separação */
+    .bar{background: #4962DD 0% 0% no-repeat padding-box;height: 5px;width: 100%;max-width: 395px;display: grid;grid-template-columns: 61px 201px 91px;position: relative;margin: 20px auto 20px auto;}
+    .bar::before,.bar::after{content: '';display: block;height: 100%;position: absolute;}
+    .bar::before{width: 61px;background: #639249 0% 0% no-repeat padding-box;}
+    .bar::after{width: 93px;background: #FE8C38 0% 0% no-repeat padding-box;right: 0;}
+/* Botão para fechar navbar mobile */
+    #fechar i{margin: 0;padding: 0;float: right;}
+/* Inicio de estilizações do site */
+.contact{text-align: center;}
+.contact-box{max-width: 504px;width: 100%;box-sizing: border-box;margin: 0 auto;}
+.contact small{font-size: 15px;color: #164C7E;font-weight: 600;letter-spacing: 4.5px;}
+.contact p{color: #164C7E;font-weight: 500;}
+.logos-box{max-width: 450px;width: 100%;box-sizing: border-box;margin: 0 auto;place-items: center;}
+.logos-box svg{height: 100px;display: block;width: 100px;}
+/* Lançamentos */
+.lancamento .display-grid .grid-child{display: grid;grid-template-columns: 100px 1fr;}
+.lancamento img{object-fit: cover;}
+.lancamento .display-grid .grid-child .green{background: #639249 0% 0% no-repeat padding-box!important;}
+.lancamento .display-grid .grid-child .blue{padding: 40px 44px;background: #4962DD 0% 0% no-repeat padding-box!important;display: flex;align-items: center;}
+.lancamento .display-grid .grid-child .blue .content{display: block;max-width: 477px;width: 100%;margin: 0 auto;}
+.lancamento .display-grid .grid-child .blue .titulo{font-size: 1.5rem;}
+.lancamento .display-grid .grid-child .blue h2{margin-top: 10px;}
+.lancamento .display-grid .orange{background-color: #FE8C38!important;padding: 40px 44px;}
+.lancamento .display-grid .orange ul{display: flex;grid-gap: 25px;flex-wrap: wrap;justify-content: center;padding: 0 110px;}
+.lancamento .display-grid .orange ul li{display: flex;align-items: center;gap: 20px;flex: 1 0 30%;align-self: center;text-align: center;justify-content: center;}
+.lancamento .display-grid .orange ul li span{font-size: .8rem;font-weight: 500;}
+/* Cidade */
+.cidade .bar{margin:20px 0;}
+.cidade .display-grid.two-columns{align-items: center;}
+.cidade .display-grid.two-columns .space-top-bottom{padding: 70px 20px;}
+/* .cidade .display-grid.two-columns .box-mapa{height: 578px;} */
+.cidade .display-grid.two-columns .magnify{height: 644px;}
+.cidade .display-grid.two-columns .magnify img{object-fit: contain;height: 100%;}
+.cidade .display-grid.two-columns .content{max-width: 485px!important;margin: 0 auto;}
+.cidade ul{display: block;float: left;max-width: calc(100%/2);}
+.cidade ul li{color: #164C7E;margin-top: 12px;display: flex;align-items: center;}
+.cidade ul li i{margin-right: 20px;color: #FE8C38;}
+.cidade ul li img{margin-right: 20px;max-width: 40px;height: 40px;display: block;box-sizing: border-box;width: 100%;object-fit: contain;}
+.cidade ul li span{font-weight: 500;font-size: 14px;cursor: pointer;}
+/* Conjunto vida e possíbilidade */
+.conjunto .green{background: #639249 0% 0% no-repeat padding-box!important;display: flex;align-items: center;}
+.conjunto .blue{background: #4962DD 0% 0% no-repeat padding-box!important;}
+.conjunto .green,.conjunto .blue{display: flex;align-items: center;}
+.conjunto figure{margin: 0;height: 100%;}
+.conjunto figure img{width: 100%;display: block;height: 100%;}
+.conjunto .content{max-width: 422px;width: 100%;margin: 0 auto;}
+.conjunto .content i{color: #FC9447;font-size: 13px;margin-right: 10px;}
+.conjunto .content ul li span{color: #fff;cursor: pointer;}
+.conjunto .content ul li{margin-top: 10px;}
+/* Implantação */
+.implatacao .titulo{font-size: 31px;}
+.implatacao img{width: 100%;display: block;margin-top: 30px;}
+.implatacao .bar{margin:20px 0;width: 100%;max-width: 100%;}
+.implatacao .display-grid.two-columns{grid-gap: 30px;}
+/* .implatacao .box .container .content{max-width: 372px;width: 100%;margin: 0 auto;} */
+.implatacao .box .container .content{width: 100%;margin: 0 auto;}
+.implatacao .box .container .content ul:not(.implatacao .display-flex){column-count: 2;}
+.implatacao .box .container .content ul li{margin-bottom: 10px;display: flex;align-items: center;}
+.implatacao .box .container .content ul li b{color: #4962de;font-size: 25px;font-weight: 900;margin-right: 20px;}
+.implatacao .box .container .content ul li span{color: #505050;}
+.implatacao .sua-vida-mais-eco{margin-top: 70px;}
+.implatacao .sua-vida-mais-eco .bar{max-width: 450px;margin: 0 auto;}
+.implatacao .sua-vida-mais-eco h2{color: #4962de;font-weight: 600;font-style: italic;font-size: 25px;text-align: center;}
+.implatacao .display-flex{display: flex;flex-wrap: wrap;gap: 14px;justify-items: center;justify-content: center;}
+.implatacao .display-flex li{flex: 0 1 170px;text-align: center;margin-top: 20px;}
+.implatacao .display-flex li img{max-width: 80px;display: block;width: 100%;margin: 0 auto;}
+.implatacao .display-flex li span{color: #4962dd!important;padding: 0 22px;text-align: center;display: block;}
+/* Galeria */
+.gallery.display-grid.two-columns img,.gallery.display-grid.two-columns div{width: 100%;display: block;height: 100%;object-fit: cover;}
+/* Tabs */
+.plantas .display-grid.two-columns{grid-gap: 30px;margin-top: 80px;}
+.plantas .carousel{height: 480px!important;}
+.plantas h2{font-size: 25px;text-align: center;}
+.plantas .bar{margin: 20px 0;max-width: 100%}
+.plantas .box-tabs{padding: 0 90px;}
+.tabs-content{width: 100%!important;}
+.plantas .magnify img{height: 100%;width: 100%;}
+.tabs-plantas{height: auto!important;display: flex;flex-direction: column;margin-top: 40px!important;}
+.tabs-plantas .indicator{display: none!important;}
+.tabs-plantas .tab{margin-top: 10px!important;}
+/* Galeria acima do contato */
+.gallery .display-grid.three-columns{grid-template-columns: repeat(3, 1fr);}
+.gallery .display-grid.three-columns figure img{width: 100%;display: block;height: 100%;object-fit: cover;box-sizing: border-box;}
+.gallery .display-grid.three-columns img,.gallery .display-grid.three-columns div{width: 100%;display: block;height: 100%;object-fit: cover;}
+/* Decorado */
+.decorado{background: #4962DD 0% 0% no-repeat padding-box;}
+.decorado .main-contact{padding: 0 20px;height: 540px;}
+.decorado .two-columns{grid-gap: 46px;align-items: center;}
+.decorado .two-columns figure{margin-top: 40px!important;}
+.decorado .two-columns img{height: 392px;object-fit: cover;}
+.decorado .main-contact .white{padding: 50px 80px;height: 100%;display: flex;flex-direction: column;justify-content: center;text-align: center;}
+.decorado h1{margin-bottom: 40px;}
+.decorado .main-contact .white p{font-weight: bold;color: #164C7E;}
+/* Rodapé */
+footer small{font-size: 9px;line-height: 17px;display: block;}
+footer .copyrights{background: #4962DD 0% 0% no-repeat padding-box;}
+footer img{object-fit: contain;}
+/* Breakpoints */
+@media only screen and (min-width:767px) and (max-width:1023px){
+/*******************************/
+/******Inicio Gryds Systems*****/
+    .sidenav li{display: block;}
+    .two-columns:not(.lancamento .display-grid:first-child,.conjunto .display-grid.two-columns,.implatacao .display-grid.two-columns,.decorado .display-grid.two-columns,.logos-box,.gallery.display-grid.two-columns){grid-template-columns: 1fr;}
+    .conjunto .display-grid.two-columns .green,.conjunto .display-grid.two-columns .blue{padding: 40px 20px;}
+    .lancamento .display-grid img,.cidade .display-grid img,.conjunto img{object-fit: cover;}
+    .implatacao .display-grid.two-columns ul{display: flex;flex-wrap: wrap;gap: 10px;}
+    .implatacao .display-grid.two-columns ul li{flex: 0 1 48%;}
+    .implatacao .display-grid.two-columns{grid-gap: 40px;}
+    .decorado .main-contact .white{padding: 50px 34px;}
+    .decorado .main-contact{padding: 0 5px;}
+    .decorado .main-contact {padding: 0 5px;height: 427px;}
+    .texto-legal .valign-wrapper{flex-direction: column;}
+    .implatacao .box .container .content{max-width: 100%;}
+    .lancamento .display-grid .orange ul li{justify-content: flex-start;}
+    .cidade .display-grid.two-columns{grid-gap:0;}
+    .decorado .two-columns{grid-template-columns: 1fr;}
+    .decorado .two-columns iframe{width: 100%;}
+}
+@media only screen and (max-width : 767px){
+    .sidenav li{display: block;}
+    .decorado .main-contact{height: auto;}
+    .plantas .box-tabs,.decorado .main-contact,.lancamento .display-grid .orange ul,.cidade .display-grid.two-columns .content{padding: 0;}
+    .decorado .main-contact .white{padding: 20px 10px;}
+    .two-columns:not(.logos-box,.gallery.display-grid.two-columns),.lancamento .display-grid .grid-child{grid-template-columns: 1fr;}
+    .bar{max-width: 100%;grid-template-columns: 1fr 1fr 1fr;}
+    .lancamento .display-grid .orange ul li{text-align: left;justify-content: left;}
+    .lancamento .display-grid .orange,.lancamento .display-grid .grid-child .blue{padding: 40px 20px;}
+    .cidade .display-grid.two-columns{grid-gap: 0;}
+    .cidade ul{margin-right: 0;}
+    section ul:last-child:not(.tabs-plantas,.implatacao ul){padding-left: 30px;}
+    .conjunto .display-grid.two-columns .green,.conjunto .display-grid.two-columns .blue{padding: 40px 0;order: 2;}
+    .conjunto .display-grid.two-columns ul{padding: 0;margin-top: 40px;}
+    .decorado .two-columns img {height: auto;}
+    .texto-legal .valign-wrapper{flex-direction: column;}
+    .implatacao .box .container .content{max-width: 100%;}
+    .decorado .two-columns iframe{width: 100%;}
+}
